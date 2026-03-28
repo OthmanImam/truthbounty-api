@@ -20,6 +20,7 @@ import { JobsModule } from './jobs/jobs.module';
 import { CacheModule } from './cache/cache.module';
 import { ClaimsModule } from './claims/claims.module';
 import { AuditModule } from './audit/audit.module';
+import { ThemeModule } from './theme.module';
 import { AuditLoggingInterceptor } from './audit/interceptors/audit-logging.interceptor';
 
 // In-memory storage for development (no Redis needed)
@@ -198,6 +199,7 @@ async function createThrottlerStorage(configService: ConfigService): Promise<any
     CacheModule,
     ClaimsModule,
     AuditModule,
+    ThemeModule,
   ],
   controllers: [AppController],
   providers: [
