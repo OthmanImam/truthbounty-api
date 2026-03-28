@@ -235,3 +235,15 @@ We welcome contributors of all levels.
 - Participate in code review
 
 See CONTRIBUTING.md for full guidelines.
+
+---
+
+## 🔒 Security
+
+We take security seriously. If you discover any security vulnerabilities, please refer to our **[Security Policy](SECURITY.md)** for instructions on how to report them. Please **do not** report security issues through public GitHub issues.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
